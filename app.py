@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello, bilal!"
+    return "Hello, fareed!"
 
 app.run (host="0.0.0.0")
