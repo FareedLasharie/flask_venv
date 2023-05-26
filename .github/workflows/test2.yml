@@ -26,6 +26,7 @@ jobs:
 
     - name: install requiements.txt
       run: pip install -r requirements.txt
+      run: python test_home_route.py
       
       
       
