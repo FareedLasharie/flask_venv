@@ -1,4 +1,4 @@
-from app import app
+from  app import app
 
 def test_home_route():
     """Make sure we get an expected response from home route"""
