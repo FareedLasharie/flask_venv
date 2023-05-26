@@ -10,7 +10,9 @@ jobs:
          matrix:
             python-version: [3.8]
        steps:
-        - uses: actions/checkout@master
+        - uses: actions/checkout@v3
+          with:
+          GLOBAL_SECRET: ${{secrets=CI_SECRET}}
         - name: Initialize Python 3.7
           uses: actions/setup-python@v1
           with:
