@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello, asdfasfas!"
+    return "Hello, world!"
 
 
 app.run(host="0.0.0.0")
