@@ -16,12 +16,12 @@ jobs:
                 username: ${{secrets.DOCKER_USERNAME}}
                 password: ${{secrets.DOCKER_PASSWORD}}
                 
-          - name: log in to ec2 instance
-            uses: appleboy/ssh-action@master
-            with:
-                host: ${{ secrets.EC2_HOST }}
-                username: ${{ secrets.EC2_USERNAME }}
-                key: ${{ secrets.EC2_PRIVATE_KEY }}
+          #- name: log in to ec2 instance
+           # uses: appleboy/ssh-action@master
+          #  with:
+           #     host: ${{ secrets.EC2_HOST }}
+           #     username: ${{ secrets.EC2_USERNAME }}
+            #    key: ${{ secrets.EC2_PRIVATE_KEY }}
                 
 
     
