@@ -8,4 +8,4 @@ def index():
     return "Hello, fareed!"
 
 
-app.run(host="0.0.0.0")
+app.run(host="0.0.0.0:8000")
