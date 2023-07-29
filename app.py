@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def index():
+def hellworld ():
     return "Hello, fareed!"
 
 
-app.run(host="0.0.0.0:8000")
+    app.run()
