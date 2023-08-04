@@ -43,7 +43,7 @@ jobs:
       
           - name: Build and Push Docker Image to ECR
             env:
-                ECR_REPOSITORY: your-ecr-repository
+                ECR_REPOSITORY: my_repo
             run: |
                 docker build -t ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ap-south-1.amazonaws.com/$my_repo:latest .
                 docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ap-south-1.amazonaws.com/$:latest
